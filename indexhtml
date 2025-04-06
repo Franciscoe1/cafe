@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Dulce Aroma</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="#"id="btn-acerca-de">Acerca de</a>
+                <a href="#"id="btn-menu">Menú</a>
+                <a href="#"id="btn-galeria">Galería</a>
+                <a href="#"id="btn-ubicacion">Ubicación</a>
+            </nav>
+            <div>
+                <h1> Café <span> San Francisco </span></h1>
+                <h3> Un refugio del tiempo, donde el corazón se abriga entre café y recuerdos. </h3>
+            </div>
+        </div>
+    </header>
+    <!-- Section main -->
+     <section>
+        <!-- Seccion acerca de  -->
+         <section>
+            <div>
+                <div>
+                    <img src="imagenes/fondo.jpeg" alt="Acerca de">
+                </div>
+                <article>
+                    <h3> Acerca de</h3>
+                    <p>
+                        Fundad en 1964 en el corazón histórico de Quito, nuestra cafetería es mucho mas que un lugar donde se sirve café; 
+                        Es el rincón donde el tiempo parece detenerse, donde cada taza lleva consigo el susurro de generaciones pasadas. 
+                        Enmarcada por la arquitectura colonial de la capital del Ecuador, esta cafetería nació como un espacio íntimo en medio 
+                        de la agitada vida cotidiana, y con el pasar de los años, se ha convertido en un refugio emocional para quienes buscan 
+                        algo más que una bebida caliente, Aquí, las paredes no solo sostienen ladrillos: guardan secretos, sonrisas y miradas
+                         que se cruzaron por primera vez en medio del aroma inconfundible del café recién pasado. Los muebles de madera antigua, 
+                         y las lámparas de hierro forjado, y el eco suave de boleros y tangos, recrean un ambiente acogedor donde cada visitante 
+                         se convierte en parte de una historia nueva.
+
+                    </p>
+                    <p>
+                        Desde sus inicios, la cafetería ha sido testigo de innumerables encuentros: desde tertulias bohemias de artistas y escritores, 
+                        hasta amores que florecieron en mesas junto a la ventana. Con una receta única transmitida de generación en generación, 
+                        el café que servimos en una mezcla artesanal que honra las tradiciones cafeteras del país, 
+                        especialmente de las tierras altas y las zonas cafeteras más emblemáticas del Ecuador.
+                        Compromiso no es solo con el sabor sino con la experiencia: cada detalle ha sido pensado para invitar al 
+                        visitante a un viaje emocional hacia épocas más simples, más cálidas, más humanas. 
+                        Hoy, 6 décadas después de su apertura seguimos abriendo nuestras puertas con la misma pasión de siempre,
+                        convencidos de que el buen café no solo se saborea… se recuerda.
+
+                    </p>
+                </article>
+            </div>
+         </section>
+     <!-- Fin acerca de  -->
+      <!-- Incio menu -->
+       <section>
+        <div>
+            <h3 id="platillos">Menú </h3>
+            <div>
+                <div>
+                    <article>
+                        <p> De comer</p>
+                        <div>
+                            <p> Arroz con camarón </p>
+                            <p> $ 8.50</p>
+                            <p> El arroz con camarón tiene los siguientes ingredientes
+                                arroz, camarón
+                            </p>
+                        </div>
+                        <div>
+                            <p> Arroz con camarón </p>
+                            <p> $ 8.50</p>
+                            <p> El arroz con camarón tiene los siguientes ingredientes
+                                arroz, camarón
+                            </p>
+                        </div>
+                        <div>
+                            <p> Encebollado</p>
+                            <p> $ 3.50</p>
+                            <p> El encebollado tiene los siguientes ingredientes 
+                                pescado, cebollas, yuca, verde, mani.
+                            </p>
+                        </div>
+                        <div>
+                            <p> Encebollado Mixto</p>
+                            <p> $ 8.50</p>
+                            <p> El encebollado tiene los siguientes ingredientes 
+                                pescado, camarón, yuca, verde, mani.
+                            </p>
+                        </div>
+                    </article>
+                     <!-- Fin de seccion de comer -->
+                    <article>
+                     <p> Bebidas</p>
+                         <div>
+                         <p> Jugos Naturales </p>
+                        <p> $ 4.00</p>
+                        <p> El jugo arural contiene 
+                            Fruta a elegir
+                        </p>
+                        </div>
+                        <div> 
+                            <p> Colas Personales </p>
+                            <p> $ 1.00</p>
+                            <p> Cocs Cola, Sprite, Orangine.
+                            </p>
+                        </div>
+                        <div> 
+                            <p> Cervezas </p>
+                            <p> $ 3.00</p>
+                            <p> Pilsener, Club.
+                            </p>
+                        </div>
+                        <div> 
+                            <p> Limonadas</p>
+                            <p> $ 2.50</p>
+                            <p> Puede elegir entre:
+                                Limonada verde o rosa.
+                            </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN DE MENÚ -->
+        <!-- INCIO DE GALERIA  -->
+        <section id="galeria">
+            <div>
+                <img src="imagenes/img,1.jpeg" alt="">
+            </div>
+            <div>
+                <img src="imagenes/img.2.jpeg" alt="">
+            </div>
+            <div>
+                <img src="imagenes/img.3.jpeg" alt="">
+            </div>
+        <div>
+            <img src="imagenes/img.4.jpeg" alt="">
+        </div>
+        <div>
+            <img src="imagenes/img.5.jpeg" alt="">
+        </div>
+        <div>
+            <img src="imagenes/img.6.jpeg" alt="">
+        </div>
+        <div>
+            <img src="imagenes/img.7.jpeg" alt="">
+        </div>
+        <div>
+            <img src="imagenes/img.8.jpeg" alt="">
+        </div>
+        </section>
+        <!-- Sccion Ubicacion  -->
+        <section id="Ubicacion"> 
+            <div>
+                <h3> Ubicación</h3>
+                <div> 
+                    <p> E5D <br />S48-520</p><br>
+                    <p> (+593) 0992628980</p>
+                    <p> cafe@gamil.com </p>
+                </div>
+                <div>
+                    <h4> Horarios </h4>
+                    <p> Luneas a Viernes <br> 7:00 - 21:00 </p>
+                    <p> Sábado y Domingo <br> 11:00 a 23:00 </p>
+                </div>
+            </div>
+        </section>
+        <!-- Fin contactos  -->
+            <!-- Incio mapa -->
+            <section>
+                <iframe 
+                src="https://maps.app.goo.gl/oKK9pAkSHNGQ9Jus5" frameborder="0"></iframe>
+            </section>
+            <!-- Fin seccion mapa  -->
+    </section>
+         <!-- Fin seccion main -->
+
+</body>
+</html>
