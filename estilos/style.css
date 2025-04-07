@@ -1,0 +1,13 @@
+/*Aquí van los comentarios de los estilos CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:"Open Sans", Arial, sans-serif;
+}

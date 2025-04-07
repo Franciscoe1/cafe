@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Dulce Aroma</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
                 <a href="#"id="btn-galeria">Galería</a>
                 <a href="#"id="btn-ubicacion">Ubicación</a>
             </nav>
-            <div>
+            <div class ="derecho" >
                 <h1> Café <span> San Francisco </span></h1>
                 <h3> Un refugio del tiempo, donde el corazón se abriga entre café y recuerdos. </h3>
             </div>
@@ -174,8 +177,7 @@
         <!-- Fin contactos  -->
             <!-- Incio mapa -->
             <section>
-                <iframe 
-                src="https://maps.app.goo.gl/oKK9pAkSHNGQ9Jus5" frameborder="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.32377566688!2d-78.51997739712506!3d-0.21407272053045945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7c036c46c1%3A0x2bff55861fcf58fe!2zQ2zDrW5pY2EgU2FudGEgTHVjw61h!5e0!3m2!1ses-419!2sus!4v1744039566947!5m2!1ses-419!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
             </section>
             <!-- Fin seccion mapa  -->
     </section>
