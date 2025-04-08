@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0, minimun-scale=1.0">
     <title>Café Dulce Aroma</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
 
 </head>
 <body>
@@ -17,8 +18,8 @@
                 <a href="#"id="btn-galeria">Galería</a>
                 <a href="#"id="btn-ubicacion">Ubicación</a>
             </nav>
-            <div class ="derecho" >
-                <h1> Café <span> San Francisco </span></h1>
+            <div class ="texto" >
+                <h1 class="nombre"> Café <span> San Francisco </span></h1>
                 <h3> Un refugio del tiempo, donde el corazón se abriga entre café y recuerdos. </h3>
             </div>
         </div>
@@ -26,9 +27,9 @@
     <!-- Section main -->
      <section>
         <!-- Seccion acerca de  -->
-         <section>
-            <div>
-                <div>
+         <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
                     <img src="imagenes/fondo.jpeg" alt="Acerca de">
                 </div>
                 <article>
