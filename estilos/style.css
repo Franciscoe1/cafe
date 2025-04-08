@@ -24,9 +24,12 @@ body{
 /* header */
 header {
     width: 100%;
-    background: url('../imagenes/inicio.jpeg')#281a0c;
+    background: url('../imagenes/bg.jpeg')#281a0c;
+    /*ocupa toda lasección de mi contenedor*/
     background-size: cover;
+    /*imagen fija en donde lo coloques*/
     background-attachment: fixed;
+    /*alineamos la imagen*/
     background-position: center 0;
 }
 header .contenedor {
@@ -35,42 +38,58 @@ header .contenedor {
 }
 header .menu {
     width: 100%;
+    /*coloca el lugar donde quieras el menu*/
     text-align: right;
 }
+/*arreglar la etiqueta menu*/
 header .menu a {
     color: #fff;
+    /*tamaño de la letra*/
     font-size: 20px;
+    /* grosor de la letra*/
     font-weight: 300;
+    /* todas las etiquetas se conviertan de tipo seccion a tipo  bloque*/
     display: inline-block;
+    /* el espacio del margen 40 arriba abajo, 20 derecha izquierda*/
     margin: 40px 20px;
+    /* elimina la linea de subrayado de la letra de menu*/
     text-decoration: none;
+    /* La posicion puede variar en cualquier momento*/
     position: relative;
 }
+/*pseudo clase*/
+/*a:hover crea animacion*/
 header .menu a:hover {
+    /*hace subrayar las leras del menu al pasar el puntero*/
     text-decoration: underline;
+    /* el color se puede cambiar con un background color*/
 }
 header .texto {
     width: 100%;
     color: #fff;
     position: absolute;
+    /*empiece al 50% del contenedor*/
     top: 50%;
-    margin-top: -52px;
+    margin-top: -80px;
 }
 header .texto .nombre {
+    /* tamaño de letra*/
     font-size: 50px;
+    /* anchura de letra*/
     font-weight: 600;
 }
 header .texto .nombre span {
-    font-weight: 300;
+    font-weight: 200;
 }
 header .texto h3 {
     font-weight: 300;
     font-size: 25px;
+    /* italic es letra cursiva*/
     font-style: italic;
 }
 /* ----------MAIN---------- */
 .main {
-    background: url('../imagenes/img.5.jpeg');
+    background: url('../imagenes/blanco.jpeg');
     background-repeat: repeat;
 }
 .main .acerca-de .contenedor{
