@@ -62,68 +62,68 @@
          </section>
      <!-- Fin acerca de  -->
       <!-- Incio menu -->
-       <section>
-        <div>
+       <section class="menu">
+        <div class="contenedor">
             <h3 id="platillos">Menú </h3>
-            <div>
-                <div>
+            <div class="contenedor-menu">
+                <div class="contenedor-menu2">
                     <article>
-                        <p> De comer</p>
-                        <div>
-                            <p> Arroz con camarón </p>
-                            <p> $ 8.50</p>
-                            <p> El arroz con camarón tiene los siguientes ingredientes
+                        <p class="categoria"> De comer</p>
+                        <div class="platillo">
+                            <p class="nombre"> Arroz con camarón </p>
+                            <p class="precio"> $ 8.50</p>
+                            <p class="descripcion"> El arroz con camarón tiene los siguientes ingredientes
                                 arroz, camarón
                             </p>
                         </div>
-                        <div>
-                            <p> Arroz con camarón </p>
-                            <p> $ 8.50</p>
-                            <p> El arroz con camarón tiene los siguientes ingredientes
+                        <div class="platillo">
+                            <p class="nombre"> Arroz con camarón </p>
+                            <p class="precio"> $ 8.50</p>
+                            <p class="descripcion"> El arroz con camarón tiene los siguientes ingredientes
                                 arroz, camarón
                             </p>
                         </div>
-                        <div>
-                            <p> Encebollado</p>
-                            <p> $ 3.50</p>
-                            <p> El encebollado tiene los siguientes ingredientes 
+                        <div class="platillo">
+                            <p class="nombre"> Encebollado</p>
+                            <p class="precio"> $ 3.50</p>
+                            <p class="descripcion"> El encebollado tiene los siguientes ingredientes 
                                 pescado, cebollas, yuca, verde, mani.
                             </p>
                         </div>
-                        <div>
-                            <p> Encebollado Mixto</p>
-                            <p> $ 8.50</p>
-                            <p> El encebollado tiene los siguientes ingredientes 
+                        <div class="platillo">
+                            <p class="nombre"> Encebollado Mixto</p>
+                            <p class="precio"> $ 8.50</p>
+                            <p class="descripcion"> El encebollado tiene los siguientes ingredientes 
                                 pescado, camarón, yuca, verde, mani.
                             </p>
                         </div>
                     </article>
                      <!-- Fin de seccion de comer -->
                     <article>
-                     <p> Bebidas</p>
-                         <div>
-                         <p> Jugos Naturales </p>
-                        <p> $ 4.00</p>
-                        <p> El jugo arural contiene 
+                     <p class="categoria"> Bebidas</p>
+                         <div class="platillo">
+                         <p class="nombre"> Jugos Naturales </p>
+                         <p class="precio"> $ 4.00</p>
+                         <p class="descripcion"> El jugo arural contiene 
                             Fruta a elegir
                         </p>
-                        </div>
+                        </div class="platillo">
                         <div> 
-                            <p> Colas Personales </p>
-                            <p> $ 1.00</p>
-                            <p> Cocs Cola, Sprite, Orangine.
+                            <p class="nombre"> Colas Personales </p>
+                            <p class="precio"> $ 1.00</p>
+                            <p class="descripcion"> Coca Cola, Sprite, Orangine.
                             </p>
                         </div>
-                        <div> 
-                            <p> Cervezas </p>
-                            <p> $ 3.00</p>
-                            <p> Pilsener, Club.
+                        <div class="platillo"> 
+                            <p class="nombre"> Cervezas </p>
+                            <p class="precio"> $ 3.00</p>
+                            <p class="descripcion"> Pilsener, Club.
                             </p>
                         </div>
-                        <div> 
-                            <p> Limonadas</p>
-                            <p> $ 2.50</p>
-                            <p> Puede elegir entre:
+                        <div class="platillo"> 
+                            <p class="nombre"> Limonadas</p>
+                            <p class="precio"> $ 2.50</p>
+                            <p class="descripcion"> Puede elegir entre:
                                 Limonada verde o rosa.
                             </p>
                             </div>
@@ -134,56 +134,65 @@
         </section>
         <!-- FIN DE MENÚ -->
         <!-- INCIO DE GALERIA  -->
-        <section id="galeria">
-            <div>
+        <section class="galeria" id="galeria">
+            <div class="foto">
                 <img src="imagenes/img,1.jpeg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/img.2.jpeg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/img.3.jpeg" alt="">
             </div>
-        <div>
+        <div class="foto">
             <img src="imagenes/img.4.jpeg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="imagenes/img.5.jpeg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="imagenes/img.6.jpeg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="imagenes/img.7.jpeg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="imagenes/img.8.jpeg" alt="">
         </div>
         </section>
-        <!-- Sccion Ubicacion  -->
-        <section id="Ubicacion"> 
-            <div>
-                <h3> Ubicación</h3>
-                <div> 
-                    <p> E5D <br />S48-520</p><br>
-                    <p> (+593) 0992628980</p>
-                    <p> cafe@gamil.com </p>
+        <!-- Seccion Ubicacion  -->
+        <section class="ubicacion" id="Ubicacion"> 
+            <div class="contenedor">
+                <h3 class="titulo"> Ubicación</h3>
+                <div class="direccion"> 
+                    <p class="calle"> E5D <br />S48-520</p><br>
+                    <p class="telefono"> (+593) 0992628980</p>
+                    <p class="correo"> cafe@gamil.com </p>
                 </div>
-                <div>
+                <div class="horarios">
                     <h4> Horarios </h4>
-                    <p> Luneas a Viernes <br> 7:00 - 21:00 </p>
-                    <p> Sábado y Domingo <br> 11:00 a 23:00 </p>
+                    <p class="entre-semana"> Luneas a Viernes <br> 7:00 - 21:00 </p>
+                    <p class="fin-semana"> Sábado y Domingo <br> 11:00 a 23:00 </p>
                 </div>
             </div>
         </section>
         <!-- Fin contactos  -->
             <!-- Incio mapa -->
-            <section>
+            <section class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.32377566688!2d-78.51997739712506!3d-0.21407272053045945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7c036c46c1%3A0x2bff55861fcf58fe!2zQ2zDrW5pY2EgU2FudGEgTHVjw61h!5e0!3m2!1ses-419!2sus!4v1744039566947!5m2!1ses-419!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
             </section>
             <!-- Fin seccion mapa  -->
     </section>
          <!-- Fin seccion main -->
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>&COPY; Todos los derechos reservados Davitron 2024</p>
+
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
